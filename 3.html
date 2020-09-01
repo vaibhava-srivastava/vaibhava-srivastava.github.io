@@ -32,19 +32,6 @@ li a.active {
   color: white;
   background-color: #4CAF50;
 }
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
   
 </style>
 
@@ -68,16 +55,22 @@ li a.active {
 </ul>
 
 <div class="stackedit__html"><h1 id="some photos">Some Photos</h1>
-  <div class="row">
-  <div class="column">
-    <img src="1.jpg" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="2.JPG" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="3.jpg" alt="Mountains" style="width:100%">
-  </div>
+<figure>
+  <img src="1.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - SURI-2019, University of Saskatchewan, Canada.</figcaption>
+</figure>
+
+  
+<figure>
+  <img src="2.JPG" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - SPIM-2019, Harish-Chandra Research Institute, India.</figcaption>
+</figure>
+
+  
+<figure>
+  <img src="3.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - &Pi Day-2019, Indian Institute of Technology Gandhinagar, India.</figcaption>
+</figure>
 
 </div>
 </div>
